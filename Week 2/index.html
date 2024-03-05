@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Akbar Sadat">
+    <meta name="keyword" content="Belajar HTML, Belajar Web">
+    <meta name="description" content="Praktikum modul 2">
+    <meta name="robots" content="index, follow">
+    <title>Week 2</title>
+</head>
+<body>
+    <strong>Praktikum Pemrograman web week 2</strong>
+    <hr>
+
+    <h1>Pengenalan HTML Tingkat Lanjut</h1>
+    <hr>
+
+    <br><br>
+    <div>
+        <h2>Pengenalan Form</h2>
+        <hr>
+        <form action="" method="get">
+            <p>
+                <input type="text" name="nama" size="20px">
+            </p>
+
+            <p>
+                <input type="text" name="panggilan" placeholder="masukkan nama panggilan" size="50px">
+            </p>
+
+            <p>
+                <input type="text" name="namaKucing" value="ini kucing" size="20px" readonly>
+            </p>
+
+            <p>
+                <input type="text" name="namaMakanan" value="ini disabled" size="20px" disabled>
+            </p>
+
+            <p>
+                <input type="text" name="umurSekarang" size="20px" required placeholder="wajib diisi">
+            </p>
+
+            <p>
+            <input type="email" name="email" size="20" placeholder="masukkan email">
+            </p>
+
+            <p>
+                <input type="password" name="password" size="20" placeholder="">
+            </p>
+
+            <p>
+                <input type="file" name="file">
+            </p>
+
+            <p>
+                <input type="hidden" name="forbidden" value="ini hidden">
+            </p>
+
+            <p>
+                <textarea name="ini area" cols="30" rows="5" placeholder="ini text area"></textarea>
+            </p>
+
+            <p>
+                <select name="opsi" id="option1">
+                    <option value="1" >ketintang</option>
+                    <option value="2" >ngagel</option>
+                    <option value="3" >jambangan</option>
+                    <option value="4" >jombang</option>
+                    <option value="5" >klaten</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="radio" name="radio" value="radio1" id="radio1" checked>
+                <label for="radio1">Radio 1</label>
+
+                <input type="radio" name="radio" value="radio2" id="radio2" checked>
+                <label for="radio1">Radio 2</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="c1" value="c1" id="c1"><label for="c1">hobi tidur</label>
+                <input type="checkbox" name="c2" value="c2" id="c2"><label for="checkbox2">hobi makan</label>
+            </p>
+
+            <p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Simpan">
+                <input type="button" value="Button" onclick="">
+            </p>
+        </form>
+    </div>
+
+    <div>
+        <h2>Element Embed</h2>
+        <hr>
+        <embed src="assets/file.pdf" width="500px" height="1000" type="application/pdf">
+    </div>    
+
+    <div>
+        <h2>Element Object</h2>
+        <hr>
+        <object data="assets/file.pdf" width="800" height="1000" type="application/pdf"></object>
+    </div>    
+
+    <div>
+        <h2>Element Iframe</h2>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v8fKPAIVObY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+        <h2>Element Semantic HTML5</h2>
+        <hr>
+        <header>Ini Header</header>
+        <main>Ini Main</main>
+        <section>Ini Section</section>
+        <aside>Ini Aside</aside>
+        <nav>Ini Nav</nav>
+        <footer>Program Studi Informatika Telkom University Surabay</footer>
+    </div>
+</body>
+</html>
